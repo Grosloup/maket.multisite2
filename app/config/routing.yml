@@ -1,0 +1,10 @@
+zpb_admin_common:
+    resource: "@ZPBAdminCommonBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.admin.zooparc.com"
+
+zpb_sites_zoo:
+    resource: "@ZPBSitesZooBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.zoobeauval.com"
+
