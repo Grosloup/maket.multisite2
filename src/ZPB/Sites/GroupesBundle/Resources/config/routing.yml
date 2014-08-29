@@ -1,0 +1,3 @@
+zpb_sites_groupes_homepage:
+    path:     /
+    defaults: { _controller: ZPBSitesGroupesBundle:Index:index }

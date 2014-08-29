@@ -1,0 +1,7 @@
+parameters:
+#    zpb_sites_groupes.example.class: ZPB\Sites\GroupesBundle\Example
+
+services:
+#    zpb_sites_groupes.example:
+#        class: %zpb_sites_groupes.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

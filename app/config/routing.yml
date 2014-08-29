@@ -1,7 +1,26 @@
+zpb_sites_scolaires:
+    resource: "@ZPBSitesScolairesBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.scolaires.zoobeauval.com"
+
+zpb_sites_groupes:
+    resource: "@ZPBSitesGroupesBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.groupes.zoobeauval.com"
+
+zpb_sites_pro:
+    resource: "@ZPBSitesProBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.pro.zoobeauval.com"
+
+zpb_sites_ce:
+    resource: "@ZPBSitesCEBundle/Resources/config/routing.yml"
+    prefix:   /
+    host: "maket.ce.zoobeauval.com"
+
 zpb_sites_bn:
     resource: "@ZPBSitesBNBundle/Resources/config/routing.yml"
     prefix:   /
-    host: "maket.beauval-nature.com"
 
 zpb_admin_common:
     resource: "@ZPBAdminCommonBundle/Resources/config/routing.yml"
