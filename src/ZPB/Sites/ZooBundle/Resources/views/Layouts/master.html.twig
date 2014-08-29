@@ -16,14 +16,20 @@
             body{
                 padding-top: 50px;
             }
+            #main-container{
+                min-height: 700px;
+            }
         </style>
     {% endblock %}
 </head>
 <body>
 {{ render(controller("ZPBSitesZooBundle:Nav:mainTopbar")) }}
+{% block page_header %}{% endblock %}
+{{ render(controller("ZPBSitesZooBundle:Nav:secondNavbar")) }}
+<div class="container" id="main-container">
+    {% block main %}{% endblock %}
+</div>
 
-
-{% block main %}{% endblock %}
 
 
 {{ render(controller("ZPBSitesZooBundle:Footer:main")) }}

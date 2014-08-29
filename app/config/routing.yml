@@ -31,5 +31,6 @@ zpb_admin_common:
 zpb_sites_zoo:
     resource: "@ZPBSitesZooBundle/Resources/config/routing.yml"
     prefix:   /
+    host: "maket.zoobeauval.com"
 
 

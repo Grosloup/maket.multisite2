@@ -1,3 +1,7 @@
 zpb_sites_zoo_homepage:
     path:     /
     defaults: { _controller: ZPBSitesZooBundle:Index:index }
+
+zpb_sites_zoo_visite:
+    path: /votre-visite
+    defaults: { _controller: ZPBSitesZooBundle:Visite:index }

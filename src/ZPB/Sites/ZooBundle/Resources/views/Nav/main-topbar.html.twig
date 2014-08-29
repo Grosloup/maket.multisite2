@@ -11,7 +11,7 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if site is defined and site == "zoobeauval" %}class="active"{% endif %}><a href="{{ path("zpb_sites_zoo_homepage") }}">ZooParc de Beauval</a></li>
+                <li {% if site is defined and site == "zoobeauval" %}class="active"{% endif %}><a href="{{ url("zpb_sites_zoo_homepage") }}">ZooParc de Beauval</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Les hôtels <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="">Les Jardins de Beauval</a></li>
@@ -22,14 +22,15 @@
                 </li>
                 <li class="dropdown {% if site is defined and site in ["ce","pro","groupes","scolaires"] %}active{% endif %}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Tarifs spéciaux <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li {% if site is defined and site == "groupes" %}class="active"{% endif %}><a href="{{ path("zpb_sites_groupes_homepage") }}">Groupes constitués</a></li>
-                        <li {% if site is defined and site == "ce" %}class="active"{% endif %}><a href="{{ path("zpb_sites_ce_homepage") }}">Comités d'entreprises</a></li>
-                        <li {% if site is defined and site == "pro" %}class="active"{% endif %}><a href="{{ path("zpb_sites_pro_homepage") }}">Professionnels du tourisme</a></li>
-                        <li {% if site is defined and site == "scolaires" %}class="active"{% endif %}><a href="{{ path("zpb_sites_scolaires_homepage") }}">Groupes enfants / Scolaires</a></li>
+                        <li {% if site is defined and site == "groupes" %}class="active"{% endif %}><a href="{{ url("zpb_sites_groupes_homepage") }}">Groupes constitués</a></li>
+                        <li {% if site is defined and site == "ce" %}class="active"{% endif %}><a href="{{ url("zpb_sites_ce_homepage") }}">Comités d'entreprises</a></li>
+                        <li {% if site is defined and site == "pro" %}class="active"{% endif %}><a href="{{ url("zpb_sites_pro_homepage") }}">Professionnels</a></li>
+                        <li {% if site is defined and site == "scolaires" %}class="active"{% endif %}><a href="{{ url("zpb_sites_scolaires_homepage") }}">Groupes enfants / Scolaires</a></li>
                     </ul>
                 </li>
-                <li><a href="">Séminaires</a></li>
-                <li {% if site is defined and site == "beauval-nature" %}class="active"{% endif %}><a href="{{ path("zpb_sites_bn_homepage") }}">Beauval Nature</a></li>
+                <li><a href="http://seminaires.leshotelsdebeauval.com">Séminaires</a></li>
+                <li {% if site is defined and site == "beauval-nature" %}class="active"{% endif %}><a href="{{ url("zpb_sites_bn_homepage") }}">Beauval Nature</a></li>
+                <li></li>
             </ul>
         </div>
     </div>
