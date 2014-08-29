@@ -21,6 +21,7 @@ zpb_sites_ce:
 zpb_sites_bn:
     resource: "@ZPBSitesBNBundle/Resources/config/routing.yml"
     prefix:   /
+    host: "maket.beauval-nature.com"
 
 zpb_admin_common:
     resource: "@ZPBAdminCommonBundle/Resources/config/routing.yml"
@@ -30,5 +31,5 @@ zpb_admin_common:
 zpb_sites_zoo:
     resource: "@ZPBSitesZooBundle/Resources/config/routing.yml"
     prefix:   /
-    host: "maket.zoobeauval.com"
+
 
