@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new ZPB\Sites\ZooBundle\ZPBSitesZooBundle(),
             new ZPB\Admin\CommonBundle\ZPBAdminCommonBundle(),
+            new ZPB\Sites\BNBundle\ZPBSitesBNBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

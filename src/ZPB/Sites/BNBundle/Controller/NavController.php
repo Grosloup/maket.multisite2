@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Nicolas Canfrère
  * Date: 29/08/14
- * Time: 09:24
+ * Time: 10:28
  */
   /*
            ____________________
@@ -18,20 +18,15 @@
       (__<  |mm_|mm_|  |mm_|mm_|
 */
 
-namespace ZPB\Sites\ZooBundle\Controller;
+namespace ZPB\Sites\BNBundle\Controller;
 
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class NavController extends Controller
 {
-    public function mainTopbarAction($site = "zoobeauval")
-    {
-        return $this->render('ZPBSitesZooBundle:Nav:main-topbar.html.twig', ['site'=>$site]);
-    }
-
     public function secondNavbarAction()
     {
-        return $this->render('ZPBSitesZooBundle:Nav:second-navbar.html.twig');
+        return $this->render('ZPBSitesBNBundle:Nav:second-navbar.html.twig', []);
     }
 } 
