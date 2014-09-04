@@ -1,3 +1,13 @@
 zpb_sites_groupes_homepage:
     path:     /
     defaults: { _controller: ZPBSitesGroupesBundle:Index:index }
+
+zpb_sites_groupes_club_assocs_visite:
+    path: /club-associations/visite
+    defaults: { _controller: ZPBSitesGroupesBundle:ClubAssoc:visite }
+
+
+
+zpb_sites_groupes_club_assocs_resto:
+    path: /club-associations/restauratiopn
+    defaults: { _controller: ZPBSitesGroupesBundle:ClubAssoc:resto }

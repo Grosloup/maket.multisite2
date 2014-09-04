@@ -1,11 +1,11 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Nicolas Canfrère
- * Date: 29/08/14
- * Time: 11:24
+ * User: Nicolas Canfrere
+ * Date: 04/09/2014
+ * Time: 20:07
  */
-  /*
+ /*
            ____________________
   __      /     ______         \
  {  \ ___/___ /       }         \
@@ -21,14 +21,18 @@
 namespace ZPB\Sites\GroupesBundle\Controller;
 
 
+
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class IndexController extends Controller
+class ClubAssocController extends Controller
 {
-    public function indexAction()
+    public function visiteAction()
     {
-        return $this->render('ZPBSitesGroupesBundle:Index:index.html.twig', []);
+        return $this->render('ZPBSitesGroupesBundle:ClubAssoc:visite.html.twig', []);
     }
 
-
+    public function restoAction()
+    {
+        return $this->render('ZPBSitesGroupesBundle:ClubAssoc:resto.html.twig', []);
+    }
 }

@@ -1,0 +1,199 @@
+{% extends "ZPBSitesGroupesBundle:Layouts:master.html.twig" %}
+
+{% block main %}
+
+    <div class="jumbotron" style="margin-bottom: 0;">
+        <div class="container">
+            <h1>Groupes - Club & Assocs</h1>
+
+            <p>Aliquid debitis eligendi eum exercitationem facilis harum ipsam iste minima minus modi non, porro quas
+                quos repudiandae rerum. Incidunt, totam!</p>
+
+            <p>A amet architecto at, doloremque eligendi eos hic ipsam itaque laboriosam, magnam mollitia, nisi non
+                nostrum quis quo soluta voluptas!</p>
+        </div>
+    </div>
+    {{ render(controller("ZPBSitesGroupesBundle:Nav:secondNavbar")) }}
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-12">
+                <h2>Restauration</h2>
+
+                <div class="page-header"><h3>Menus</h3></div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading text-center">
+                                <h3>Menu Rungwe</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>12.00€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Nuggets de poulet</li>
+                                <li class="list-group-item">Potatoes et légumes de saison</li>
+                                <li class="list-group-item">Fromage individuel</li>
+                                <li class="list-group-item">Glace vanille-fraise ou vanille-chocolat</li>
+                                <li class="list-group-item">Eau</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading text-center">
+                                <h3>Menu Sherkan</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>20.00€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Tartare de tomates et thon</li>
+                                <li class="list-group-item"> Suprême de volaille, fondant de brocolis et ses pommes de
+                                    terre du moment
+                                </li>
+                                <li class="list-group-item">Tartelette aux fruits de saison</li>
+                                <li class="list-group-item">Vin (1/3 de bouteille par personne)</li>
+                                <li class="list-group-item">Eau</li>
+                                <li class="list-group-item">Café / Thé</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-success">
+                            <div class="panel-heading text-center">
+                                <h3>Menu Maousie</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>20.00€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Émincé de concombre sur lit de mozarella</li>
+                                <li class="list-group-item">Filet de poisson blanc et sa sauce au beurre blanc</li>
+                                <li class="list-group-item">Fondant de brocolis et ses pommes de terre du moment</li>
+                                <li class="list-group-item">Moelleux au chocolat et son coulis</li>
+                                <li class="list-group-item">Vin (1/3 de bouteille par personne)</li>
+                                <li class="list-group-item">Eau</li>
+                                <li class="list-group-item">Café / Thé</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-header"><h3>Les petites formules</h3></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading text-center">
+                                <h3>Goûter</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>4.50€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Nuggets de poulet</li>
+                                <li class="list-group-item">Potatoes et légumes de saison</li>
+                                <li class="list-group-item">Fromage individuel</li>
+                                <li class="list-group-item">Glace vanille-fraise ou vanille-chocolat</li>
+                                <li class="list-group-item">Eau</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading text-center">
+                                <h3>Formule Okapi <small>(jusqu'à 12 ans)</small></h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>6.50€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Tartare de tomates et thon</li>
+                                <li class="list-group-item"> Suprême de volaille, fondant de brocolis et ses pommes de
+                                    terre du moment
+                                </li>
+                                <li class="list-group-item">Tartelette aux fruits de saison</li>
+                                <li class="list-group-item">Vin (1/3 de bouteille par personne)</li>
+                                <li class="list-group-item">Eau</li>
+                                <li class="list-group-item">Café / Thé</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading text-center">
+                                <h3>Formule Calao <small>(adulte)</small></h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <h3>9.00€</h3>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">Émincé de concombre sur lit de mozarella</li>
+                                <li class="list-group-item">Filet de poisson blanc et sa sauce au beurre blanc</li>
+                                <li class="list-group-item">Fondant de brocolis et ses pommes de terre du moment</li>
+                                <li class="list-group-item">Moelleux au chocolat et son coulis</li>
+                                <li class="list-group-item">Vin (1/3 de bouteille par personne)</li>
+                                <li class="list-group-item">Eau</li>
+                                <li class="list-group-item">Café / Thé</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="page-header"><h3>Coupons repas</h3></div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, cupiditate ex illo in, ipsum
+                    laudantium maxime natus nemo nisi obcaecati pariatur, possimus quisquam repellendus.</p>
+
+                <p>Alias aperiam cumque maiores optio perferendis ullam voluptas! Animi architecto atque blanditiis,
+                    distinctio dolore error est exercitationem, facere, laboriosam molestias omnis perspiciatis placeat
+                    quaerat. Fugit?</p>
+
+                <p>Adipisci alias, corporis deleniti ea eaque eius, eos in ipsum, itaque placeat possimus praesentium
+                    quae quis repellat sed tempora tenetur. Eligendi pariatur quasi voluptas voluptate?</p>
+
+                <p>Accusamus alias aspernatur assumenda cumque dolor dolores ducimus eaque hic magnam, molestias nam
+                    necessitatibus nihil, perferendis porro provident repellat voluptatem. Doloremque dolores molestias
+                    optio possimus?</p>
+
+                <p>Asperiores autem delectus, dolore earum facilis magni neque nisi non odio quisquam quos recusandae
+                    repellat reprehenderit. Culpa iste placeat ratione velit. Eligendi facilis reprehenderit vitae.</p>
+
+                <h4>Restauration groupes aux Jardins et aux Pagodes de Beauval</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, cupiditate ex illo in, ipsum
+                    laudantium maxime natus nemo nisi obcaecati pariatur, possimus quisquam repellendus.</p>
+
+                <p>Alias aperiam cumque maiores optio perferendis ullam voluptas! Animi architecto atque blanditiis,
+                    distinctio dolore error est exercitationem, facere, laboriosam molestias omnis perspiciatis placeat
+                    quaerat. Fugit?</p>
+
+                <p>Adipisci alias, corporis deleniti ea eaque eius, eos in ipsum, itaque placeat possimus praesentium
+                    quae quis repellat sed tempora tenetur. Eligendi pariatur quasi voluptas voluptate?</p>
+
+                <p>Accusamus alias aspernatur assumenda cumque dolor dolores ducimus eaque hic magnam, molestias nam
+                    necessitatibus nihil, perferendis porro provident repellat voluptatem. Doloremque dolores molestias
+                    optio possimus?</p>
+
+                <p>Asperiores autem delectus, dolore earum facilis magni neque nisi non odio quisquam quos recusandae
+                    repellat reprehenderit. Culpa iste placeat ratione velit. Eligendi facilis reprehenderit vitae.</p>
+
+            </div>
+            <div class="col-md-12">
+                <ul>
+                    <li> Réservation obligatoire 3 semaines à l'avance, sous réserve de disponibilités</li>
+                    <li>Acompte de 50% pour toute réservation de menus et petites formules</li>
+                    <li> Possibilité de réservation de Petites Formules (goûters, pique-niques)&nbsp;; nous consulter
+                    </li>
+                    <li> Toute modification devra être signalée au plus tard 7 jours avant la date de visite</li>
+                    <li>Menus réservés aux groupes constitués de 20 personnes minimum et aux CES</li>
+                    <li> Menu identique pour tous les membres du groupe (hors menu enfant)</li>
+                    <li> Service à table</li>
+                    <li> Repas gratuit(s) pour le(s) conducteur(s) du car à partir de 20 personnes payantes</li>
+                    <li> Repas gratuit pour le responsable du groupe à partir de 50 menus payants</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
