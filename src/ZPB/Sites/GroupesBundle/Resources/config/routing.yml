@@ -2,6 +2,13 @@ zpb_sites_groupes_homepage:
     path:     /
     defaults: { _controller: ZPBSitesGroupesBundle:Index:index }
 
+zpb_sites_groupes_pratique:
+    path:     /pratique
+    defaults: { _controller: ZPBSitesGroupesBundle:Index:pratique }
+zpb_sites_groupes_outils_commande:
+    path:     /outils/commande
+    defaults: { _controller: ZPBSitesGroupesBundle:Index:outilsCommande }
+
 zpb_sites_groupes_club_assocs_visite:
     path: /club-associations/visite
     defaults: { _controller: ZPBSitesGroupesBundle:ClubAssoc:visite }
@@ -9,5 +16,9 @@ zpb_sites_groupes_club_assocs_visite:
 
 
 zpb_sites_groupes_club_assocs_resto:
-    path: /club-associations/restauratiopn
+    path: /club-associations/restauration
     defaults: { _controller: ZPBSitesGroupesBundle:ClubAssoc:resto }
+
+zpb_sites_groupes_club_assocs_sejour:
+    path: /club-associations/sejours
+    defaults: { _controller: ZPBSitesGroupesBundle:ClubAssoc:sejour }

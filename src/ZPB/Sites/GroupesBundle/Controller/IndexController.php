@@ -30,5 +30,20 @@ class IndexController extends Controller
         return $this->render('ZPBSitesGroupesBundle:Index:index.html.twig', []);
     }
 
+    public function pratiqueAction()
+    {
+        return $this->render('ZPBSitesGroupesBundle:Index:pratique.html.twig', []);
+    }
+
+    public function outilsTelechargeAction()
+    {
+        return $this->render('ZPBSitesGroupesBundle:Index:outil_telecharge.html.twig', []);
+    }
+
+    public function outilsCommandeAction()
+    {
+        return $this->render('ZPBSitesGroupesBundle:Index:outil_commande.html.twig', []);
+    }
+
 
 }

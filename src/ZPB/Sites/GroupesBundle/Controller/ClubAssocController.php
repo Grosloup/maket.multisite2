@@ -35,4 +35,11 @@ class ClubAssocController extends Controller
     {
         return $this->render('ZPBSitesGroupesBundle:ClubAssoc:resto.html.twig', []);
     }
+
+    public function sejourAction()
+    {
+        return $this->render('ZPBSitesGroupesBundle:ClubAssoc:sejour.html.twig', []);
+    }
+
+
 }
