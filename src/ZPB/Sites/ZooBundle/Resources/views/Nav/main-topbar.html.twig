@@ -12,6 +12,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li {% if site is defined and site == "zoobeauval" %}class="active"{% endif %}><a href="{{ url("zpb_sites_zoo_homepage") }}">ZooParc de Beauval</a></li>
+                <li {% if site is defined and site == "beauval-nature" %}class="active"{% endif %}><a href="{{ url("zpb_sites_bn_homepage") }}">Beauval Nature</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Les hôtels <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="">Les Jardins de Beauval</a></li>
