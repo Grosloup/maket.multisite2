@@ -3,7 +3,7 @@
 {% block main %}
     <div class="jumbotron" style="margin-bottom: 0;">
         <div class="container">
-            <h1>Comités d'entreprises</h1>
+            <h1>Comités d'entreprises <small>Groupes</small></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam et, incidunt minima omnis quaerat
                 quidem unde. At dolores, sequi.</p>
 
@@ -39,7 +39,19 @@
 
             </div>
             <div class="col-md-3">
+                <p><a href="{{ url("zpb_sites_scolaires_homepage") }}" class="btn btn-success">groupe enfants</a></p>
 
+                <p class="bg-primary" style="padding: 10px;">Label Tourisme & Handicap</p>
+
+                <p><a href="{{ url("zpb_sites_scolaires_homepage") }}" class="btn btn-success">groupe enfants handicapés</a></p>
+                <h3>Avantages groupes</h3>
+                <ul>
+                    <li>Ouvert tous les jours de l'année</li>
+                    <li>Parking bus gratuit</li>
+                    <li>Caisse spéciale groupes</li>
+                    <li>Facturation au nombre de personnes réellement présentes</li>
+                    <li>Facturation et réglement uniques</li>
+                </ul>
             </div>
         </div>
     </div>

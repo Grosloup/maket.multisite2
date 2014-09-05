@@ -1,3 +1,12 @@
 zpb_sites_ce_homepage:
     path:     /
     defaults: { _controller: ZPBSitesCEBundle:Index:index }
+zpb_sites_ce_pratique:
+    path:     /pratique
+    defaults: { _controller: ZPBSitesCEBundle:Index:pratique }
+zpb_sites_ce_group_homepage:
+    path:     /groupes
+    defaults: { _controller: ZPBSitesCEBundle:Group:index }
+zpb_sites_ce_indiv_homepage:
+    path:     /individuel
+    defaults: { _controller: ZPBSitesCEBundle:Indiv:index }
